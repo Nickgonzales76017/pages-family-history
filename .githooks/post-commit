@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+# ─── Bonfyre Pages App Hook ──────────────────────────────────────────────────
+set -euo pipefail
+
+BONFYRE_BIN="${BONFYRE_BIN:-$HOME/.local/bin}"
+export PATH="$BONFYRE_BIN:$PATH"
+
+log() { printf "\033[0;33m[bonfyre]\033[0m %s\n" "$1"; }
+err() { printf "\033[0;31m[bonfyre]\033[0m %s\n" "$1" >&2; }
+
+require_bin() {
+  for b in "$@"; do
+    command -v "$b" >/dev/null 2>&1 || { err "Missing: $b (run 'make install' in bonfyre-oss)"; return 1; }
+  done
+}
+
+BINS=(bonfyre-media-prep bonfyre-transcribe bonfyre-clips bonfyre-tag bonfyre-embed bonfyre-brief bonfyre-emit)
+require_bin "${BINS[@]}" || exit 0
+
+CHANGED=$(git diff-tree --no-commit-id --name-only -r HEAD -- input/ 2>/dev/null || true)
+[ -z "$CHANGED" ] && exit 0
+
+log "Family Museum: processing $(echo "$CHANGED" | wc -l | tr -d ' ') recording(s)…"
+
+for f in $CHANGED; do
+  [ -f "$f" ] || continue
+  base=$(basename "$f" | sed 's/\.[^.]*$//')
+  ext="${f##*.}"
+
+  case "$ext" in
+    wav|mp3|m4a|ogg|flac|webm)
+      log "[$base] transcribe → clips → tag → embed → brief"
+      bonfyre-media-prep "$f" --out "artifacts/${base}.prep.json"
+      bonfyre-transcribe "artifacts/${base}.prep.json" --out "artifacts/${base}.transcript.json"
+      bonfyre-clips "artifacts/${base}.transcript.json" --out "artifacts/${base}.clips.json"
+      bonfyre-tag "artifacts/${base}.transcript.json" --out "artifacts/${base}.tags.json"
+      bonfyre-embed "artifacts/${base}.tags.json" --out "artifacts/${base}.embed.json"
+      bonfyre-brief "artifacts/${base}.transcript.json" --out "artifacts/${base}.brief.json"
+      ;;
+    jpg|jpeg|png|gif)
+      log "[$base] photo → tag (family photos go straight to site)"
+      bonfyre-tag "$f" --out "artifacts/${base}.tags.json"
+      cp "$f" "site/photos/"
+      ;;
+    *) log "[$base] skipping: $ext" ;;
+  esac
+done
+
+log "Building family museum…"
+mkdir -p site/photos site/stories
+bonfyre-emit artifacts/ --out site/ --format html
+log "Museum updated. $(find artifacts/ -name '*.clips.json' | wc -l | tr -d ' ') stories preserved."
