@@ -1,0 +1,56 @@
+[
+  {
+    "id": "demo-family-history-a",
+    "file": "grandma-kitchen-story.m4a",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "This story captures how Sunday dinners became the family\u2019s anchor after moving states. The speaker remembers handwritten recipes, cousins learning each dish by watching, and the kitchen table becoming the place where birthdays, arguments, and reconciliation all happened.",
+    "tags": [
+      "recipes",
+      "migration",
+      "family-traditions"
+    ],
+    "flagged": true,
+    "demo": true,
+    "searchSummary": "kitchen story, porch memory, family timeline",
+    "whyItMatters": "One memory joins a searchable family archive.",
+    "searchIntro": "One memory joins a searchable family archive. Search across the seeded records to feel that inside the app.",
+    "searchOutputs": []
+  },
+  {
+    "id": "demo-family-history-b",
+    "file": "Related grandma-kitchen-story.m4a",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "A second seeded record extends the same workflow so in-app search and reuse are visible instead of theoretical.",
+    "tags": [
+      "recipes",
+      "migration",
+      "related"
+    ],
+    "flagged": false,
+    "demo": true,
+    "searchSummary": "related signals, continuity, reuse",
+    "whyItMatters": "One memory joins a searchable family archive.",
+    "searchIntro": "One memory joins a searchable family archive. Search across the seeded records to feel that inside the app.",
+    "searchOutputs": []
+  },
+  {
+    "id": "demo-family-history-c",
+    "file": "Follow-up grandma-kitchen-story.m4a",
+    "time": "Demo dataset",
+    "status": "complete",
+    "brief": "A third seeded record shows how this app can connect follow-up work, recurring themes, and downstream use without leaving the demo experience.",
+    "tags": [
+      "recipes",
+      "migration",
+      "follow-up"
+    ],
+    "flagged": false,
+    "demo": true,
+    "searchSummary": "follow-up, memory, downstream action",
+    "whyItMatters": "One memory joins a searchable family archive.",
+    "searchIntro": "One memory joins a searchable family archive. Search across the seeded records to feel that inside the app.",
+    "searchOutputs": []
+  }
+]
