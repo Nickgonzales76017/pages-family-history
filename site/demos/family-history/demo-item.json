@@ -1,0 +1,10 @@
+{
+  "id": "demo-family-history",
+  "file": "grandma-kitchen-story.m4a",
+  "time": "Demo dataset",
+  "status": "complete",
+  "brief": "This story captures how Sunday dinners became the family’s anchor after moving states. The speaker remembers handwritten recipes, cousins learning each dish by watching, and the kitchen table becoming the place where birthdays, arguments, and reconciliation all happened.",
+  "tags": ["recipes", "migration", "family-traditions"],
+  "flagged": true,
+  "demo": true
+}
