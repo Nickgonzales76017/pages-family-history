@@ -1,0 +1,17 @@
+{
+  "title": "A MORE HEARTWARMING  WAY OF RECORDING FAMILY MEMORIES",
+  "public_url": "https://www.youtube.com/watch?v=gGGL4NTEU60",
+  "source": {
+    "title": "A MORE HEARTWARMING  WAY OF RECORDING FAMILY MEMORIES",
+    "channel": "Larry Potash",
+    "duration_seconds": 262
+  },
+  "transcribe": {
+    "avg_confidence": 0.8974,
+    "avg_logprob": -0.5,
+    "rtf": 0.0414,
+    "segments_total": 94,
+    "segments_hallucinated": 0
+  },
+  "retained_media": false
+}

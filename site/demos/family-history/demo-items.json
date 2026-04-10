@@ -1,56 +1,110 @@
 [
   {
-    "id": "demo-family-history-a",
-    "file": "grandma-kitchen-story.m4a",
-    "time": "Reference corpus",
+    "id": "oral-history-video-tips",
+    "file": "Tips on Taking a Video Recording of an Oral History and why it needs to be done NOW!",
+    "time": "Public origin \u00b7 499s",
     "status": "complete",
-    "brief": "This story captures how Sunday dinners became the family\u2019s anchor after moving states. The speaker remembers handwritten recipes, cousins learning each dish by watching, and the kitchen table becoming the place where birthdays, arguments, and reconciliation all happened.",
+    "brief": "The idea of taking down our old history is to actually get the  person who may be sick, may be passing away, may be old, may be beginning to suffer dementia or it could just be  somebody young enough who actually has studied the family history. For example, Grandma used to tell me about Dolly Underwood and how they worked in a department  store in the 1920s. There is some really great websites, as I said, organized in a situation where you can be pertaining to figuring out some ideas, jot down some notes. What I find really interesting in today's world is that everything we do eat sleep for most part, especially  millennials, goes on some form of social media, TikTok, Facebook, etc.",
     "tags": [
-      "recipes",
-      "migration",
-      "family-traditions"
+      "oral-history",
+      "family",
+      "memory",
+      "recording",
+      "stories"
     ],
     "flagged": true,
     "demo": true,
-    "searchSummary": "kitchen story, porch memory, family timeline",
-    "whyItMatters": "One memory joins a searchable family archive.",
-    "searchIntro": "One memory joins a searchable family archive. Search across the reference records to feel that inside the app.",
-    "searchOutputs": []
+    "sourceUrl": "https://www.youtube.com/watch?v=627gbVUsR5g",
+    "sourceLabel": "Watch original public video",
+    "sourceTitle": "Tips on Taking a Video Recording of an Oral History and why it needs to be done NOW!",
+    "publisher": "History with McCaskey Heritage Stories ",
+    "license": "Public YouTube video processed transiently. Bonfyre retained only derived artifacts.",
+    "sourceCopy": "Source: History with McCaskey Heritage Stories  on YouTube. Bonfyre downloaded, transcribed, and deleted the media. Only the transcript, brief, and proof remain.",
+    "whyItMatters": "Family recordings become preserved, searchable oral histories \u2014 stories that would otherwise fade with time.",
+    "searchSummary": "oral-history, family, memory",
+    "searchIntro": "Search across the family history records to see how Bonfyre connects related content from different sources.",
+    "outputs": [
+      "oral history brief",
+      "clean transcript",
+      "proof bundle",
+      "search across stories"
+    ],
+    "outputNotes": {
+      "oral history brief": "Bonfyre extracted the key points from the source audio into a structured oral history brief.",
+      "clean transcript": "The raw transcript cleaned of filler words, false starts, and artifacts.",
+      "proof bundle": "Full provenance chain: source URL, transcription confidence, processing recipe, and quality flags."
+    },
+    "outputLinks": {
+      "brief": {
+        "href": "demos/family-history/proofs/oral-history-video-tips/brief.md",
+        "label": "Open brief"
+      },
+      "clean transcript": {
+        "href": "demos/family-history/proofs/oral-history-video-tips/clean.txt",
+        "label": "Open clean transcript"
+      },
+      "proof bundle": {
+        "href": "demos/family-history/proofs/oral-history-video-tips/proof.json",
+        "label": "Open proof JSON"
+      }
+    },
+    "searchOutputs": [
+      "search across records"
+    ],
+    "proofPath": "demos/family-history/proofs/oral-history-video-tips"
   },
   {
-    "id": "demo-family-history-b",
-    "file": "Related grandma-kitchen-story.m4a",
-    "time": "Reference corpus",
+    "id": "recording-family-memories",
+    "file": "A MORE HEARTWARMING  WAY OF RECORDING FAMILY MEMORIES",
+    "time": "Public origin \u00b7 262s",
     "status": "complete",
-    "brief": "A second reference record extends the same workflow so in-app search and reuse are visible instead of theoretical.",
+    "brief": "This Grandma's method is a little more comforting  and a little more heart-filled. (gentle music)  - Joy watched her grandmother work the needle and thread,  but there was something else happening here  that Joy could not see nor understand. A quilt may be somebody else's story,  but it makes her feel awful to think someone through a way  another grandmother's hard work. I met one woman who is preserving a way of life  and teaching others how to pass along stories  through the generations.",
     "tags": [
-      "recipes",
-      "migration",
-      "related"
+      "oral-history",
+      "family",
+      "memory",
+      "recording",
+      "stories"
     ],
     "flagged": false,
     "demo": true,
-    "searchSummary": "related signals, continuity, reuse",
-    "whyItMatters": "One memory joins a searchable family archive.",
-    "searchIntro": "One memory joins a searchable family archive. Search across the reference records to feel that inside the app.",
-    "searchOutputs": []
-  },
-  {
-    "id": "demo-family-history-c",
-    "file": "Follow-up grandma-kitchen-story.m4a",
-    "time": "Reference corpus",
-    "status": "complete",
-    "brief": "A third reference record shows how this app can connect follow-up work, recurring themes, and downstream use without leaving the demo experience.",
-    "tags": [
-      "recipes",
-      "migration",
-      "follow-up"
+    "sourceUrl": "https://www.youtube.com/watch?v=gGGL4NTEU60",
+    "sourceLabel": "Watch original public video",
+    "sourceTitle": "A MORE HEARTWARMING  WAY OF RECORDING FAMILY MEMORIES",
+    "publisher": "Larry Potash",
+    "license": "Public YouTube video processed transiently. Bonfyre retained only derived artifacts.",
+    "sourceCopy": "Source: Larry Potash on YouTube. Bonfyre downloaded, transcribed, and deleted the media. Only the transcript, brief, and proof remain.",
+    "whyItMatters": "Family recordings become preserved, searchable oral histories \u2014 stories that would otherwise fade with time.",
+    "searchSummary": "oral-history, family, memory",
+    "searchIntro": "Search across the family history records to see how Bonfyre connects related content from different sources.",
+    "outputs": [
+      "oral history brief",
+      "clean transcript",
+      "proof bundle",
+      "search across stories"
     ],
-    "flagged": false,
-    "demo": true,
-    "searchSummary": "follow-up, memory, downstream action",
-    "whyItMatters": "One memory joins a searchable family archive.",
-    "searchIntro": "One memory joins a searchable family archive. Search across the reference records to feel that inside the app.",
-    "searchOutputs": []
+    "outputNotes": {
+      "oral history brief": "Bonfyre extracted the key points from the source audio into a structured oral history brief.",
+      "clean transcript": "The raw transcript cleaned of filler words, false starts, and artifacts.",
+      "proof bundle": "Full provenance chain: source URL, transcription confidence, processing recipe, and quality flags."
+    },
+    "outputLinks": {
+      "brief": {
+        "href": "demos/family-history/proofs/recording-family-memories/brief.md",
+        "label": "Open brief"
+      },
+      "clean transcript": {
+        "href": "demos/family-history/proofs/recording-family-memories/clean.txt",
+        "label": "Open clean transcript"
+      },
+      "proof bundle": {
+        "href": "demos/family-history/proofs/recording-family-memories/proof.json",
+        "label": "Open proof JSON"
+      }
+    },
+    "searchOutputs": [
+      "search across records"
+    ],
+    "proofPath": "demos/family-history/proofs/recording-family-memories"
   }
 ]

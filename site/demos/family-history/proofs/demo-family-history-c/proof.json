@@ -1,0 +1,17 @@
+{
+  "title": "Follow-up grandma-kitchen-story.m4a",
+  "public_url": "",
+  "source": {
+    "title": "Follow-up grandma-kitchen-story.m4a",
+    "channel": "Reference corpus",
+    "duration_seconds": 202
+  },
+  "transcribe": {
+    "avg_confidence": 0.8268,
+    "avg_logprob": -0.738,
+    "rtf": 0.0316,
+    "segments_total": 4,
+    "segments_hallucinated": 1
+  },
+  "retained_media": false
+}

@@ -1,0 +1,131 @@
+{
+  "pipeline": "full_chain",
+  "version": "1.0",
+  "app": "family-history",
+  "source": {
+    "title": "grandma-kitchen-story.m4a",
+    "duration_s": 108
+  },
+  "pipeline_wall_s": 29.6,
+  "steps_total": 23,
+  "steps_ok": 23,
+  "steps_failed": 0,
+  "steps": [
+    {
+      "name": "fetch-metadata",
+      "wall_s": 3.39,
+      "exit": 0
+    },
+    {
+      "name": "download-audio",
+      "wall_s": 6.6,
+      "exit": 0
+    },
+    {
+      "name": "media-prep",
+      "wall_s": 0.746,
+      "exit": 0
+    },
+    {
+      "name": "transcribe",
+      "wall_s": 18.21,
+      "exit": 0
+    },
+    {
+      "name": "transcript-clean",
+      "wall_s": 0.054,
+      "exit": 0
+    },
+    {
+      "name": "paragraph",
+      "wall_s": 0.046,
+      "exit": 0
+    },
+    {
+      "name": "brief",
+      "wall_s": 0.082,
+      "exit": 0
+    },
+    {
+      "name": "tag",
+      "wall_s": 0.219,
+      "exit": 0
+    },
+    {
+      "name": "tone",
+      "wall_s": 1.455,
+      "exit": 0
+    },
+    {
+      "name": "embed",
+      "wall_s": 0.286,
+      "exit": 0
+    },
+    {
+      "name": "offer",
+      "wall_s": 0.054,
+      "exit": 0
+    },
+    {
+      "name": "repurpose-tweet",
+      "wall_s": 0.046,
+      "exit": 0
+    },
+    {
+      "name": "repurpose-linkedin",
+      "wall_s": 0.032,
+      "exit": 0
+    },
+    {
+      "name": "repurpose-youtube",
+      "wall_s": 0.038,
+      "exit": 0
+    },
+    {
+      "name": "render",
+      "wall_s": 0.068,
+      "exit": 0
+    },
+    {
+      "name": "hash",
+      "wall_s": 0.016,
+      "exit": 0
+    },
+    {
+      "name": "pack",
+      "wall_s": 0.029,
+      "exit": 0
+    },
+    {
+      "name": "ledger",
+      "wall_s": 0.049,
+      "exit": 0
+    },
+    {
+      "name": "compress",
+      "wall_s": 0.032,
+      "exit": 0
+    },
+    {
+      "name": "stitch",
+      "wall_s": 0.06,
+      "exit": 0
+    },
+    {
+      "name": "meter",
+      "wall_s": 0.035,
+      "exit": 0
+    },
+    {
+      "name": "emit-html",
+      "wall_s": 0.023,
+      "exit": 0
+    },
+    {
+      "name": "index",
+      "wall_s": 0.103,
+      "exit": 0
+    }
+  ],
+  "total_s": 31.67
+}

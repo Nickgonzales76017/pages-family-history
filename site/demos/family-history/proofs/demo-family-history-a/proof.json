@@ -1,0 +1,17 @@
+{
+  "title": "grandma-kitchen-story.m4a",
+  "public_url": "",
+  "source": {
+    "title": "grandma-kitchen-story.m4a",
+    "channel": "Reference corpus",
+    "duration_seconds": 108
+  },
+  "transcribe": {
+    "avg_confidence": 0.7936,
+    "avg_logprob": -0.74,
+    "rtf": 0.056,
+    "segments_total": 25,
+    "segments_hallucinated": 1
+  },
+  "retained_media": false
+}
